@@ -2136,8 +2136,8 @@ var Clustergrammer =
 	    show_tile_tooltips: true,
 	    // matrix options
 	    transpose: false,
-	    tile_colors: ['#FF0000', '#1C86EE'],
-	    bar_colors: ['#FF0000', '#1C86EE'],
+	    tile_colors: ['#DA70D6', '#FF4500'],
+	    bar_colors: ['#DA70D6', '#FF4500'],
 	    // value-cat colors
 	    // cat_value_colors: ['#2F4F4F', '#8A2BE2'],
 	    cat_value_colors: ['#2F4F4F', '#9370DB'],
@@ -22908,8 +22908,8 @@ var Clustergrammer =
 
 	module.exports = function build_dendro_sliders(cgm) {
 
-	  build_single_dendro_slider(cgm, 'row');
-	  build_single_dendro_slider(cgm, 'col');
+	  //build_single_dendro_slider(cgm, 'row');
+	  //build_single_dendro_slider(cgm, 'col');
 		};
 
 /***/ }),
@@ -27927,8 +27927,8 @@ var Clustergrammer =
 
 	    button_dict = {
 	      'clust': 'Cluster',
-	      'rank': 'Rank by Sum',
-	      'rankvar': 'Rank by Variance',
+	      //'rank': 'Rank by Sum',
+	      //'rankvar': 'Rank by Variance',
 	      'ini': 'Initial Order',
 	      'alpha': 'Alphabetically'
 	    };
