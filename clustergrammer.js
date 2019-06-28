@@ -12924,8 +12924,8 @@ var Clustergrammer =
 
 	  sidebar.row_search = {};
 	  sidebar.row_search.box = {};
-	  sidebar.row_search.box.height = 34;
-	  sidebar.row_search.box.width = 95;
+	  sidebar.row_search.box.height = 30;
+	  sidebar.row_search.box.width = 100;
 	  sidebar.row_search.placeholder = params.row_search_placeholder;
 	  sidebar.row_search.margin_left = 7;
 
