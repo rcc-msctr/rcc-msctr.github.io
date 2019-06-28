@@ -2136,8 +2136,8 @@ var Clustergrammer =
 	    show_tile_tooltips: true,
 	    // matrix options
 	    transpose: false,
-	    tile_colors: ['#DA70D6', '#FF4500'],
-	    bar_colors: ['#DA70D6', '#FF4500'],
+	    tile_colors: ['#FF0000', '#1C86EE'],
+	    bar_colors: ['#FF0000', '#1C86EE'],
 	    // value-cat colors
 	    // cat_value_colors: ['#2F4F4F', '#8A2BE2'],
 	    cat_value_colors: ['#2F4F4F', '#9370DB'],
@@ -12924,8 +12924,8 @@ var Clustergrammer =
 
 	  sidebar.row_search = {};
 	  sidebar.row_search.box = {};
-	  sidebar.row_search.box.height = 500;
-	  sidebar.row_search.box.width = 100;
+	  sidebar.row_search.box.height = 34;
+	  sidebar.row_search.box.width = 95;
 	  sidebar.row_search.placeholder = params.row_search_placeholder;
 	  sidebar.row_search.margin_left = 7;
 
@@ -27927,8 +27927,8 @@ var Clustergrammer =
 
 	    button_dict = {
 	      'clust': 'Cluster',
-	      //'rank': 'Rank by Sum',
-	      //'rankvar': 'Rank by Variance',
+	      'rank': 'Rank by Sum',
+	      'rankvar': 'Rank by Variance',
 	      'ini': 'Initial Order',
 	      'alpha': 'Alphabetically'
 	    };
